@@ -1,0 +1,53 @@
+{
+  "_说明": "本项目与 Web-Project-Template 的联动配置。智能体接手时先读本文件。",
+  "_知识库": "https://github.com/1686756626/Web-Project-Template",
+  "_贡献规范": "Web-Project-Template/贡献规范.md",
+
+  "contributes": [
+    {
+      "knowledge": "经验/教学/先练后讲原则.md",
+      "source": "README.md 的教学模式：小步引导",
+      "status": "verified",
+      "since": "2026-04-10"
+    },
+    {
+      "knowledge": "经验/教学/教学时间管理.md",
+      "source": "教学时间管理规范.md",
+      "status": "verified",
+      "since": "2026-04-10"
+    },
+    {
+      "knowledge": "经验/教学/出题流程.md",
+      "source": "README.md 的出题流程章节",
+      "status": "verified",
+      "since": "2026-04-10"
+    },
+    {
+      "knowledge": "经验/教学/课后同步规范.md",
+      "source": "课后同步规范.md",
+      "status": "verified",
+      "since": "2026-04-10"
+    },
+    {
+      "knowledge": "经验/教学/多科目教学系统结构.md",
+      "source": "本项目的完整目录结构和README设计",
+      "status": "verified",
+      "since": "2026-04-10"
+    },
+    {
+      "knowledge": "经验/部署/cron定时任务模板.md",
+      "source": "定时任务配置.md（14个cron任务）",
+      "status": "verified",
+      "since": "2026-04-10"
+    }
+  ],
+
+  "uses": [],
+
+  "pending": [
+    {
+      "idea": "教学实施手册格式（Day N 结构）可提取为通用教学模板",
+      "reason": "等教学系统项目也采用后提取"
+    }
+  ]
+}

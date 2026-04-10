@@ -248,18 +248,16 @@ git config user.name "衍"
 
 ## 通用经验知识库联动
 
-本项目的通用教学经验已提取到 [Web-Project-Template](https://github.com/1686756626/Web-Project-Template)：
+> 详细联动关系见 `knowledge-map.json`（机器可读）。
 
-| 本项目内容 | 知识库位置 |
-|-----------|-----------|
-| 先练后讲（小步引导） | `经验/教学/先练后讲原则.md` |
-| 教学时间管理（每时段查3次时间） | `经验/教学/教学时间管理.md` |
-| 出题流程（先出答案再出题） | `经验/教学/出题流程.md` |
-| 课后同步规范 | `经验/教学/课后同步规范.md` |
-| cron 定时任务模板（14个任务） | `经验/部署/cron定时任务模板.md` |
-| 多科目教学系统目录结构 | `经验/教学/多科目教学系统结构.md` |
+知识库：[Web-Project-Template](https://github.com/1686756626/Web-Project-Template)
+贡献规范：`Web-Project-Template/贡献规范.md`
 
-其他项目（如 Teaching-Dashboard 的前端教学系统）可直接引用这些经验。
+### 规则
+
+- 发现新的通用教学经验时，按 `贡献规范.md` 提取到知识库
+- 提取后更新本项目的 `knowledge-map.json`（contributes 数组）和知识库的 `knowledge-map.json`
+- 其他教学项目（如 Teaching-Dashboard 的前端教学系统）可直接引用这些经验
 
 ## 注意事项
 
