@@ -246,18 +246,11 @@ git config user.name "衍"
 
 ---
 
-## 通用经验知识库联动
+## 通用经验知识库
 
-> 详细联动关系见 `knowledge-map.json`（机器可读）。
-
-知识库：[Web-Project-Template](https://github.com/1686756626/Web-Project-Template)
-贡献规范：`Web-Project-Template/贡献规范.md`
-
-### 规则
-
-- 发现新的通用教学经验时，按 `贡献规范.md` 提取到知识库
-- 提取后更新本项目的 `knowledge-map.json`（contributes 数组）和知识库的 `knowledge-map.json`
-- 其他教学项目（如 Teaching-Dashboard 的前端教学系统）可直接引用这些经验
+通用经验库存放在 [Web-Project-Template](https://github.com/1686756626/Web-Project-Template)。
+本项目贡献了 `经验/教学/*`（5篇）和 `经验/部署/cron定时任务模板.md`。
+发现新的通用经验时，加到那个仓库的对应目录。
 
 ## 注意事项
 
